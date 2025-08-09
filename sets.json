@@ -1,0 +1,9 @@
+{
+    "round_id": 0,
+    "station_id": "NX-231",
+    "name": "Катерина Клиффорд",
+    "dep": "rnd",
+    "job": "rd",
+    "is_com": true,
+    "server": "echo"
+}

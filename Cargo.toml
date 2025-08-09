@@ -1,0 +1,15 @@
+[package]
+name = "ss14docs"
+version = "0.0.1"
+authors = ["tau"]
+edition = "2021"
+
+[dependencies]
+pretty-trait = "0.1.2"
+json = "0.12.4"
+http = "1.3.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = { version = "1.0", default-features = false, features = ["alloc"] }
+ureq = { version = "3", features = ["socks-proxy", "charset"] }
+time = { version = "0.3.41", features = ["formatting", "parsing"] }
+chrono = "0.4"
